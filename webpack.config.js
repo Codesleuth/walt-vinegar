@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   devtool: 'sourcemap',
   resolve: {
-    extensions: [".walt"]
+    extensions: ['.js', '.walt']
   },
   module: {
     rules: [

@@ -1,7 +1,3 @@
-import makeCounter from './walt/counter.walt'
+import print from './print'
 
-makeCounter().then(wasmModule => {
-  console.log(wasmModule.instance.exports.increment()) // 1
-  console.log(wasmModule.instance.exports.increment()) // 2
-  console.log(wasmModule.instance.exports.decrement()) // 1
-})
+print('Hello world!').catch(err => console.error(err))

@@ -1,0 +1,15 @@
+import { memory: Memory<{ initial: 1 }> } from 'env';
+import { log: LogType } from 'env';
+
+type LogType = (i32) => void;
+
+export function print(len: i32): void {
+  const output: i32[] = 0;
+  let byte: i32 = 0;
+  let i: i32 = 0;
+
+  for (i = 0; i < len; i += 1) {
+    byte = i32.load8_u(i);
+    log(byte);
+  }
+}
