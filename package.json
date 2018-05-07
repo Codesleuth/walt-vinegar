@@ -1,0 +1,18 @@
+{
+  "name": "walt-vinegar",
+  "version": "0.0.1",
+  "description": "Demo project for WALT compiler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "David Wood <david.p.wood@gmail.com> (https://www.codesleuth.co.uk/)",
+  "license": "MIT",
+  "devDependencies": {
+    "walt-compiler": "^0.6.0",
+    "walt-loader": "^1.0.17",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
